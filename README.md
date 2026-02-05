@@ -27,7 +27,7 @@ POST "/provider/{providerId}/supply" - Добавить поставку от п
  1. Откройте cmd/bash и склонируете проект с гит репозитория
     ``` cmd 
     git clone https://github.com/QRWER/TestSeverstal2026
-    cd NoteS
+    cd TestSeverstal2026
  2. Постройте проект в Docker контейнере
     ``` cmd
     docker-compose build
@@ -36,4 +36,5 @@ POST "/provider/{providerId}/supply" - Добавить поставку от п
     ``` cmd
     docker-compose up
     ```
+
 
